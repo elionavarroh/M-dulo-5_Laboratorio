@@ -81,7 +81,7 @@ for (var i=0; i < product.length; i++) {
 
 //PARTE EXTRA_APLICA UN DESCUENTO DEL 5% SI LA COMPRA ES MAYOR DE 100€
 var totaldiscount = 0;
-if (total > 100) {
+if (total > 50) {
     totaldiscount = total-(total*0.05);
 };
 console.log(totaldiscount);
