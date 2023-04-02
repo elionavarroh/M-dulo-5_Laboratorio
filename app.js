@@ -28,3 +28,9 @@ const carrito = [
     premium: false
     }
    ];
+
+var productos = ["Tinta DJ27 Color", "Impresora ticketera PRO-201", "Caja de rollos de papel para ticketera", "Caja de folios DIN-A4 80gr"];
+
+var productosEliminados = productos.splice(3, 3);
+//productos: ["Tinta DJ27 Color", "Impresora ticketera PRO-201", "Caja de folios DIN-A4 80gr"]
+//elementos eliminados: ["Caja de rollos de papel para ticketera"]
